@@ -4,7 +4,7 @@ var app = express()
 
 //Define request response in root URL (/)
 app.get('/', function (req, res) {
-  res.send('Hello World from dmogiliver@insightops!')
+  res.send('Hello World from dmogiliver@insightops! Node number 2')
 })
 
 //Launch listening server on port 3000
