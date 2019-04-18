@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh ubuntu@10.0.0.8 <<EOF
- cd ~/dmhelloworld
+ cd ~/dmhelloworld2
  git pull
  npm install -production
  pm2 restart all
