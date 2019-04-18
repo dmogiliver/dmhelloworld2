@@ -1,0 +1,9 @@
+#!/bin/sh
+ssh ubuntu@10.0.0.11 <<EOF
+ cd ~/dmhelloworld
+ git pull
+ npm install -production
+ pm2 restart all
+ exit
+EOF
+

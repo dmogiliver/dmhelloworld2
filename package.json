@@ -1,0 +1,26 @@
+{
+  "name": "dmhelloworld",
+  "version": "0.0.2",
+  "description": "Node.js dmogiliver demo deployed by Jenkins",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmogiliver/dmhelloworld.git"
+  },
+  "author": "dmogiliver@insightdevops",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmogiliver/dmhelloworld/issues"
+  },
+  "homepage": "https://github.com/dmogiliver/dmhelloworld#readme"
+}
